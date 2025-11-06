@@ -1,0 +1,17 @@
+{
+    "name": "task-reminder/app",
+    "description": "Task Reminder Application with WebSocket support",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "cboden/ratchet": "^0.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "TaskReminder\\": "src/"
+        }
+    }
+}
+
+
+

@@ -1,0 +1,48 @@
+# Dependencies
+/vendor/
+/node_modules/
+
+# Configuration (if contains sensitive data)
+# config/config.php
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# Database backups
+*.sql.bak
+*.db
+
+# Environment files
+.env
+.env.local
+
+# PWA Service Worker cache
+sw.js
+service-worker.js.map
+
+# Composer
+composer.phar
+composer.lock
+
+# XAMPP specific
+xampp/
+
