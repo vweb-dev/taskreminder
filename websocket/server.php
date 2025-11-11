@@ -7,6 +7,8 @@
  * Run: php websocket/server.php
  */
 
+date_default_timezone_set('Asia/Karachi');
+
 use Ratchet\MessageComponentInterface;
 use Ratchet\ConnectionInterface;
 use Ratchet\Server\IoServer;

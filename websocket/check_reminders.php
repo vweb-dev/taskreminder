@@ -7,6 +7,8 @@
  * Usage: php websocket/check_reminders.php
  */
 
+date_default_timezone_set('Asia/Karachi');
+
 require __DIR__ . '/../config/config.php';
 
 // WebSocket server URL

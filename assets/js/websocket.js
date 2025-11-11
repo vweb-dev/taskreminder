@@ -302,7 +302,7 @@ class ReminderWebSocket {
         } else {
             console.error('❌ WebSocket connection failed after multiple attempts.');
             console.warn('⚠️ Please start WebSocket server to receive real-time reminders: php websocket/server.php');
-        }
+            }
     }
 
     /**

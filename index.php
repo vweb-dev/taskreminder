@@ -1,4 +1,5 @@
 <?php
+date_default_timezone_set('Asia/Karachi');
 session_start();
 require_once 'includes/auth.php';
 requireLogin();
@@ -125,7 +126,7 @@ $currentUser = getCurrentUser();
                         <img src="assets/icons/icon-96x96.png" alt="Task Reminder Logo" class="app-logo-img">
                     </div>
                     <div class="page-title-content">
-                        <h1 class="page-title">Task Reminder</h1>
+                <h1 class="page-title">Task Reminder</h1>
                         <p class="page-subtitle">Stay organized, stay productive</p>
                     </div>
                 </div>

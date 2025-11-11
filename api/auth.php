@@ -4,6 +4,8 @@
  * Handles user login and registration
  */
 
+date_default_timezone_set('Asia/Karachi');
+
 session_start();
 header('Content-Type: application/json');
 

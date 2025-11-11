@@ -4,6 +4,8 @@
  * Run this to check if WebSocket server is running
  */
 
+date_default_timezone_set('Asia/Karachi');
+
 $host = 'localhost';
 $port = 8080;
 

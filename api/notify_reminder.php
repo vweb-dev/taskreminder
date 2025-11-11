@@ -9,6 +9,9 @@ header('Content-Type: application/json');
 // Simple file-based message queue (in production, use Redis or proper message queue)
 $messageQueueFile = __DIR__ . '/../websocket/message_queue.json';
 
+date_default_timezone_set('Asia/Karachi');
+
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $data = json_decode(file_get_contents('php://input'), true);
     

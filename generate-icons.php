@@ -5,6 +5,8 @@
  * Run: php generate-icons.php
  */
 
+date_default_timezone_set('Asia/Karachi');
+
 // Create icons directory if it doesn't exist
 $iconsDir = __DIR__ . '/assets/icons';
 if (!is_dir($iconsDir)) {

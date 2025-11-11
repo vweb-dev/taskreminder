@@ -10,6 +10,8 @@ header('Content-Type: application/json');
 require_once '../config/config.php';
 require_once '../includes/auth.php';
 
+date_default_timezone_set('Asia/Karachi');
+
 // Check if user is logged in
 if (!isLoggedIn()) {
     echo json_encode([

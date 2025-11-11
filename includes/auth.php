@@ -4,6 +4,8 @@
  * Use this file to check authentication status
  */
 
+date_default_timezone_set('Asia/Karachi');
+
 /**
  * Check if user is logged in
  * @return bool

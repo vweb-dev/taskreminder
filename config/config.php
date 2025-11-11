@@ -4,6 +4,8 @@
  * Contains only database connection settings
  */
 
+date_default_timezone_set('Asia/Karachi');
+
 // Database Configuration
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
